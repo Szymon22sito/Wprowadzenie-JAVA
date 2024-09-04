@@ -3,7 +3,7 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println("na lekcji");
 
-        double wylosowana = Math.random()*10+1;
+        int wylosowana = (int)(Math.random()*10+1);
         System.out.println(wylosowana);
         //git int
         // git config user.email
