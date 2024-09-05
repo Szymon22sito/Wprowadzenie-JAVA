@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -5,6 +7,16 @@ public class Main {
 
         int wylosowana = (int)(Math.random()*10+1);
         System.out.println(wylosowana);
+        /*
+        typy proste
+        logiczny : boolean
+        całkowite: byte, short, int , long
+        rzeczywiste: float, double
+        znakowy: char
+        typy złożone zawsze pisane wielką literą obiekty które mją własnosci i metody
+         */
+
+
         //git int
         // git config user.email
         //             user.name
@@ -12,5 +24,10 @@ public class Main {
         //git commit -m ""
         //git log
         //git push -u orgin master
+        System.out.println("zgadnij liczbe z zakresu 1,10");
+        Scanner klawiatura = new Scanner(System.in);
+        int wpisanaLiczba = klawiatura.nextInt();// wczytywanie z klawiatury
+        System.out.println("Wpisano z klawiatury " + wpisanaLiczba);
+
     }
 }
