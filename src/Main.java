@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println("na lekcji");
 
-        int wylosowana = (int)(Math.random()*10+1);
+        int wylosowana = (int)(Math.random()*100+1);
         System.out.println(wylosowana);
         /*
         typy proste
@@ -38,5 +38,23 @@ public class Main {
         //wyrażenie warunkowe
         String komunikat = wylosowana == wpisanaLiczba ? "Poprawnie":"Niepoprawnie";
         System.out.println(komunikat);
+        int roznica = wylosowana>wpisanaLiczba? wylosowana - wpisanaLiczba:wpisanaLiczba-wylosowana;
+        roznica = roznica/10;//dzielenie calkowite bo wynik int
+        switch (roznica){
+            case 0:
+                System.out.println("Brawo");
+                break;
+            case 1:
+                System.out.println("Bardzo blisko");
+                break;
+            case 2:
+                System.out.println("Dość blisko");
+                break;
+            default:
+                System.out.println("Spróbuj szczęscia innym razem");
+
+
+        }
+        //wyrarzenie switch
     }
 }
