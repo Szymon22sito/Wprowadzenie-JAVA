@@ -58,16 +58,16 @@ public class Main {
         //wyrarzenie switch
         System.out.println(
                 switch (roznica){
-                    case 0 -> "Brawo"
-                    case 1 -> "Bardzo blisko"
-                    case 2 -> "Dość blisko"
-                    default -> "Słabo"
+                    case 0 -> "Brawo";
+                    case 1 -> "Bardzo blisko";
+                    case 2 -> "Dość blisko";
+                    default -> "Słabo";
                 }
         );
 
         //zgadywanie 10 razy
-        for (int i = 0; i < ; i++) {
-            System.out.println("Zgadnij liczbę, prba nr "+(i+1);
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Zgadnij liczbę, próba nr "+(i+1));
             wpisanaLiczba = klawiatura.nextInt();
             if (wpisanaLiczba == wylosowana){
                 System.out.println("Wygrana");
