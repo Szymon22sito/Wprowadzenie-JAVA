@@ -28,6 +28,11 @@ public class Main {
         Scanner klawiatura = new Scanner(System.in);
         int wpisanaLiczba = klawiatura.nextInt();// wczytywanie z klawiatury
         System.out.println("Wpisano z klawiatury " + wpisanaLiczba);
-
+        if(wpisanaLiczba == wylosowana){
+            System.out.println("Trafiona liczba");
+        }
+        else {
+            System.out.println("Nie trafiono spróbuj ponownie");
+        }
     }
 }
