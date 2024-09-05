@@ -64,5 +64,23 @@ public class Main {
                     default -> "Słabo"
                 }
         );
+
+        //zgadywanie 10 razy
+        for (int i = 0; i < ; i++) {
+            System.out.println("Zgadnij liczbę, prba nr "+(i+1);
+            wpisanaLiczba = klawiatura.nextInt();
+            if (wpisanaLiczba == wylosowana){
+                System.out.println("Wygrana");
+                break;
+            }
+            else {
+                if (wpisanaLiczba>wylosowana){
+                    System.out.println("Wpisano za dużo");
+                }
+                else {
+                    System.out.println("Wpisano za mało");
+                }
+            }
+        }
     }
 }
