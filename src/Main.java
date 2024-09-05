@@ -56,5 +56,13 @@ public class Main {
 
         }
         //wyrarzenie switch
+        System.out.println(
+                switch (roznica){
+                    case 0 -> "Brawo"
+                    case 1 -> "Bardzo blisko"
+                    case 2 -> "Dość blisko"
+                    default -> "Słabo"
+                }
+        );
     }
 }
